@@ -1,0 +1,21 @@
+as Card import "./Card"
+as Separator import "Separator"
+
+serve (
+    <div class="w-full flex gap-4 flex-col p-2 md:px-16 mb-8">
+    <Separator/>
+        <div class="w-full flex flex-col">
+            <div class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-accent">Tech Stack</div>
+            <div class="text-lg md:text-xl text-text leading-relaxed">Technologies and tools I work with</div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <Card title="Frontend Development" desc="React, Next.js, and Astro for modern web applications. Tailwind CSS for styling. And ShadCN is in all my new projects" icon="https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/refs/heads/main/frameworks/react.svg"/>
+            <Card title="Backend Development" desc="Full-stack development with Node.js, NestJS, Express, and Telegram bots. Trust me I can write TypeScript." icon="https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/refs/heads/main/programming languages/typescript.svg"/>
+            <Card title="Databases" desc="PostgreSQL, MongoDB, Redis, MySQL, and SQLite for different data storage needs. Always looking for complex database design." icon="https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/refs/heads/main/databases/postgresql.svg"/>
+            <Card title="AI Agents" desc="I recenlty added AI Agents as my core interests. From Google ADK to Langchain in Python and TypeScript. Automating and solving my own problems." icon="https://raw.githubusercontent.com/bwks/vendor-icons-svg/refs/heads/master/python.svg"/>
+            <Card title="DevOps" desc="Docker, and deployment with Render, Vercel, Netlify, and Cloudflare." icon="https://raw.githubusercontent.com/bwks/vendor-icons-svg/refs/heads/master/docker-new.svg"/>
+            <Card title="Development Tools" desc="Linux, Github, VS Code, Postman, and development productivity tools." icon="https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/refs/heads/main/text%20editors/vscode.svg"/>
+        </div>
+    </div>
+
+)

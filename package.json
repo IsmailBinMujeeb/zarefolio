@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "0.0.0",
+  "type": "module",
+  "imports": {
+    "#css/*": "./static/css/*",
+    "#js/*": "./static/js/*",
+    "#deps/*": "./static/deps/*"
+  },
+  "scripts": {
+    "serve": "zare serve",
+    "build": "zare build",
+    "preview": "serve dist",
+    "css:watch": "npx @tailwindcss/cli -i ./static/css/input.css -o ./static/css/output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.17",
+    "tailwindcss": "^4.1.17"
+  },
+  "devDependencies": {
+    "serve": "^14.2.5"
+  }
+}

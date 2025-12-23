@@ -1,0 +1,29 @@
+as SocialLinks import "SocialLinks"
+
+serve (
+    <div class="flex md:flex-row flex-col-reverse w-full md:min-h-screen gap-8 md:gap-0 items-center">
+        <div class="items-center w-full md:w-1/2 min-h-full">
+            <div class="flex justify-center flex-col ml-auto text-left p-2 md:pl-16 space-y-6">
+                <p class="text-2xl md:text-3xl font-semibold mb-4"><span class="text-accent">Hi,</span> I'm Ismail</p>
+                <div class="leading-relaxed space-y-6 md:text-xl">
+                    <p>
+                        In my twenties, I started coding in 12th and now have about three years of experience building Fullstack web apps and developer tools that make the <span class="text-accent">:DX</span> more fun.
+                    </p>
+                    
+                    <p>
+                        Most of my work is open-source, and I spend my time crafting tools and websites that solve real problems while learning and experimenting with new technologies.
+                    </p>
+                    
+                    <p>
+                        When I'm not coding or contributing to projects, I'm probably writing books, blogs, tinkering with some obscure new tech or hanging on discord.
+                    </p>
+                </div>
+                <a href="https://beyondthestack.hashnode.dev/" class="flex gap-2 border-2 border-accent rounded-xl bg-zinc-700 hover:bg-accent w-fit p-4 text-white"><svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="#fff" viewBox="0 0 256 256"><path d="M184,112a8,8,0,0,1-8,8H112a8,8,0,0,1,0-16h64A8,8,0,0,1,184,112Zm-8,24H112a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16Zm48-88V208a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V48A16,16,0,0,1,48,32H208A16,16,0,0,1,224,48ZM48,208H72V48H48Zm160,0V48H88V208H208Z"></path></svg> Visit My Blog</a>
+                <SocialLinks/>
+            </div>
+        </div>
+        <div class="md:w-1/2 flex items-center justify-center">
+            <img src="https://pbs.twimg.com/profile_images/1978853487833169921/f0OXZ1e2_400x400.jpg" class="rounded-full size-64 border-x-6 border-b-6 border-accent"/>
+        </div>
+    </div>
+)

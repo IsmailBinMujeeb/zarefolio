@@ -1,0 +1,18 @@
+as Card import "./Card"
+as Separator import "Separator"
+
+serve (
+    <div class="w-full flex gap-4 flex-col p-2 md:px-16">
+        <Separator/>
+        <div class="w-full flex flex-col">
+            <div class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-accent">Hall Of Frame</div>
+            <div class="text-lg md:text-xl text-text leading-relaxed">Some of the things I've built and worked on</div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <Card title="Zare Template Engine" desc="A file based, component based template engine. Fully open source and made with TypeScript." icon="https://raw.githubusercontent.com/ismailbinmujeeb/assets/refs/heads/main/zare.png"/>
+            <Card title="IO Browser" desc="A chromium based browser made for my final year project submission." icon="https://raw.githubusercontent.com/ismailbinmujeeb/assets/refs/heads/main/io.png"/>
+            <Card title="Quar Studio" desc="Instantly spin up a web based editor for your Mongoose models. Built for developers who loves quick database interaction." icon="https://raw.githubusercontent.com/ismailbinmujeeb/assets/refs/heads/main/quar.png"/>
+            <Card title="Personal Portfolio" desc="This site, made of Zare and Tailwind to showoff my technical skills and projects so far." icon="https://github.com/ismailbinmujeeb.png"/>
+        </div>
+    </div>
+)

@@ -1,0 +1,12 @@
+as Base import "../base"
+as Hiro import "../components/Hiro"
+as TechStack import "../components/TechStack"
+as HallOfFrame import "../components/HallOfFrame"
+
+serve (
+    <Base>
+        <Hiro/>
+        <TechStack/>
+        <HallOfFrame/>
+    </Base>
+)
