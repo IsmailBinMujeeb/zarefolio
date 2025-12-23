@@ -34,6 +34,12 @@ jobs:
       - name: Build site
         run: npm run build
 
+      - name: Fix broken Zare output
+        run: |
+          if [ -f dist/.html ]; then
+            mv dist/.html dist/index.html
+          fi
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
