@@ -1,4 +1,4 @@
-link "#css/output.css"
+link "./css/output.css"
 as Header import "./components/header"
 as Footer import "./components/footer"
 
