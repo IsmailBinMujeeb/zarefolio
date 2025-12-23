@@ -9,9 +9,10 @@
   },
   "scripts": {
     "serve": "zare serve",
-    "build": "zare build",
+    "build": "npm run css:build && zare build",
     "preview": "serve dist",
-    "css:watch": "npx @tailwindcss/cli -i ./static/css/input.css -o ./static/css/output.css --watch"
+    "css:watch": "npx @tailwindcss/cli -i ./static/css/input.css -o ./static/css/output.css --watch",
+    "css:build": "npx @tailwindcss/cli -i ./static/css/input.css -o ./static/css/output.css"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.17",
