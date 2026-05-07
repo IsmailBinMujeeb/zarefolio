@@ -1,14 +1,16 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100..900&display=swap");
 
 @theme {
-    --color-primary: hsl(232, 23%, 18%);
-    --color-secondary: hsl(232, 23%, 25%);
-    --color-accent: hsl(171, 50%, 60%);
-    --color-text: hsl(60, 33%, 94.9%);
-    --font-sans: 'JetBrains Mono', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, LiHei Pro, '黑體-繁', '微軟正黑體';
-    --font-mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New';
+    --color-bg: #0f0f0e;
+    --color-dim: #2a2926;
+    --color-muted: #6b6760;
+    --color-accent: #c8b89a;
+    --color-prose: #e8e4dc;
+
+    --font-serif: "Instrument Serif", serif;
+    --font-mono: "DM Mono", monospace;
 }
 
 ::-webkit-scrollbar {
@@ -17,29 +19,29 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: #2C2F33;
+    background: #2c2f33;
     border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #5865F2;
+    background: #5865f2;
     border-radius: 4px;
     opacity: 0.6;
     transition: all 0.2s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #5865F2;
+    background: #5865f2;
     opacity: 0.8;
 }
 
 ::-webkit-scrollbar-corner {
-    background: #2C2F33;
+    background: #2c2f33;
 }
 
 /* Firefox scrollbar styling */
 * {
     scrollbar-width: thin;
-    scrollbar-color: #36393e #2C2F33;
+    scrollbar-color: #36393e #2c2f33;
     scrollbar-gutter: stable;
 }

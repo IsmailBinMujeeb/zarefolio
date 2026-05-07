@@ -1,0 +1,9 @@
+serve (
+    <div class="flex justify-between items-baseline border-b border-[#2a2926] pb-3 mb-8 sm:mb-10 text-[10px] sm:text-[11px] text-muted uppercase tracking-widest">
+        <div class="flex gap-4 sm:gap-8">
+        <span>Full-Stack Dev</span>
+        <span>India</span>
+        </div>
+        <span>Exp. 3yrs</span>
+    </div>
+)

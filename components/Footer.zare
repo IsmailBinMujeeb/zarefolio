@@ -1,0 +1,6 @@
+serve (
+    <div class="mt-10 sm:mt-12 border-t border-[#2a2926] pt-3 flex flex-col sm:flex-row sm:justify-between gap-1 sm:gap-0 text-[10px] text-muted uppercase tracking-wider">
+        <span>© 2026 Ismail Bin Mujeeb</span>
+        <span>Made with Zare</span>
+    </div>
+)

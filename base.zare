@@ -1,21 +1,19 @@
 link "./css/output.css"
-as Header import "./components/header"
-as Footer import "./components/footer"
 
 serve (
     <!DOCTYPE html>
     <html lang="en">
-        <head>
-            <meta charset="UTF-8" />
-            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <title>Ismail - Bugbuster</title>
-        </head>
-        <body class="bg-primary text-text font-mono">
-            <Header/>
-            <main class="pt-16 md:pt-0 ">
-                @(slot)
-            </main>
-            <Footer/>
-        </body>
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ismail Bin Mujeeb — Full-Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/192960071?v=4"/>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+    </head>
+    <body class="bg-bg text-prose font-mono text-[13px] leading-relaxed max-w-[900px] mx-auto px-8 py-12 pb-20">
+        @(slot)
+    </body>
     </html>
 )

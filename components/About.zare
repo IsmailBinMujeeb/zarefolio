@@ -1,0 +1,12 @@
+serve (
+    <div class="flex flex-col sm:grid sm:grid-cols-[140px_1fr] gap-1 sm:gap-x-10">
+        <div class="text-[10px] uppercase tracking-[0.12em] text-muted mb-2 sm:mb-0 sm:pt-0.5">About</div>
+        <div class="text-[12px] sm:text-[13px] text-prose leading-[1.75] flex flex-col gap-3">
+        <p>In my twenties, I started coding in 12th and now have about three years of experience building Fullstack web apps and developer tools that make the <span class="text-accent">:DX</span> more fun.</p>
+        <p>Most of my work is open-source, and I spend my time crafting tools and websites that solve real problems while learning and experimenting with new technologies.</p>
+        <p>When I'm not coding or contributing to projects, I'm probably writing books, blogs, tinkering with some obscure new tech or hanging on discord.</p>
+        </div>
+    </div>
+
+    <hr class="border-[#2a2926] my-6 sm:my-8" />
+)

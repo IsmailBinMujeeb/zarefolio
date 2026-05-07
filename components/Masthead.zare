@@ -1,0 +1,19 @@
+serve (
+    <div class="flex flex-col-reverse sm:grid sm:grid-cols-[1fr_180px] gap-6 sm:gap-8 mb-8 sm:mb-10 items-start">
+        <div>
+        <h1 class="font-serif text-[clamp(2.8rem,10vw,5.5rem)] leading-[0.95] tracking-tight text-prose">
+            Ismail<br/>
+            <em class="italic text-accent">Bin Mujeeb</em>
+        </h1>
+        <div class="mt-4 sm:mt-5 text-[10px] sm:text-[11px] text-muted uppercase tracking-wider flex flex-col gap-1">
+            <div>Role &nbsp;&nbsp;&nbsp;<span class="text-prose normal-case tracking-normal text-[11px] sm:text-[12px]">Full-Stack Developer</span></div>
+            <div>Focus &nbsp;<span class="text-prose normal-case tracking-normal text-[11px] sm:text-[12px]">Web Apps · Dev Tools · AI Agents</span></div>
+            <div>Stack &nbsp;<span class="text-prose normal-case tracking-normal text-[11px] sm:text-[12px]">TypeScript · Node.js · React · Go</span></div>
+            <div>Status <span class="text-[#7dbd8e] normal-case tracking-normal text-[11px] sm:text-[12px]">● Open to work</span></div>
+        </div>
+        </div>
+        <img src="https://avatars.githubusercontent.com/u/192960071?v=4" class="w-[110px] h-[135px] sm:w-[180px] sm:h-[220px] object-cover object-top contrast-105 brightness-95" alt="Ismail Bin Mujeeb" />
+    </div>
+
+    <hr class="border-[#2a2926] my-6 sm:my-8" />
+)

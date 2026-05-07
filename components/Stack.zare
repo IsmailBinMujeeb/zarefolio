@@ -1,0 +1,73 @@
+serve (
+    <div class="text-[10px] uppercase tracking-[0.12em] text-muted mb-3">Stack</div>
+
+    <!-- STACK TABLE -->
+    <div class="border-t border-[#2a2926]">
+
+        <div class="flex flex-col sm:grid sm:grid-cols-[140px_1fr] sm:gap-x-10 border-b border-[#2a2926] py-2.5">
+            <div class="text-[10px] uppercase tracking-widest text-muted mb-1.5 sm:mb-0 sm:pt-1">Languages</div>
+            <div class="flex flex-wrap gap-x-2.5 gap-y-1">
+                <span class="text-[11px] text-muted after:content-[',']">TypeScript</span>
+                <span class="text-[11px] text-muted after:content-[',']">JavaScript</span>
+                <span class="text-[11px] text-muted after:content-[',']">Python</span>
+                <span class="text-[11px] text-muted">Go</span>
+            </div>
+        </div>
+
+        <div class="flex flex-col sm:grid sm:grid-cols-[140px_1fr] sm:gap-x-10 border-b border-[#2a2926] py-2.5">
+            <div class="text-[10px] uppercase tracking-widest text-muted mb-1.5 sm:mb-0 sm:pt-1">Frontend</div>
+            <div class="flex flex-wrap gap-x-2.5 gap-y-1">
+                <span class="text-[11px] text-muted after:content-[',']">React</span>
+                <span class="text-[11px] text-muted after:content-[',']">Next.js</span>
+                <span class="text-[11px] text-muted after:content-[',']">Vue</span>
+                <span class="text-[11px] text-muted after:content-[',']">Astro</span>
+                <span class="text-[11px] text-muted after:content-[',']">Tailwind CSS</span>
+                <span class="text-[11px] text-muted">Electron</span>
+            </div>
+        </div>
+
+        <div class="flex flex-col sm:grid sm:grid-cols-[140px_1fr] sm:gap-x-10 border-b border-[#2a2926] py-2.5">
+            <div class="text-[10px] uppercase tracking-widest text-muted mb-1.5 sm:mb-0 sm:pt-1">Backend</div>
+            <div class="flex flex-wrap gap-x-2.5 gap-y-1">
+                <span class="text-[11px] text-muted after:content-[',']">Node.js</span>
+                <span class="text-[11px] text-muted after:content-[',']">Express</span>
+                <span class="text-[11px] text-muted after:content-[',']">NestJS</span>
+                <span class="text-[11px] text-muted after:content-[',']">Socket.io</span>
+                <span class="text-[11px] text-muted">Prisma</span>
+            </div>
+        </div>
+
+        <div class="flex flex-col sm:grid sm:grid-cols-[140px_1fr] sm:gap-x-10 border-b border-[#2a2926] py-2.5">
+            <div class="text-[10px] uppercase tracking-widest text-muted mb-1.5 sm:mb-0 sm:pt-1">Databases</div>
+            <div class="flex flex-wrap gap-x-2.5 gap-y-1">
+                <span class="text-[11px] text-muted after:content-[',']">PostgreSQL</span>
+                <span class="text-[11px] text-muted after:content-[',']">MongoDB</span>
+                <span class="text-[11px] text-muted after:content-[',']">Redis</span>
+                <span class="text-[11px] text-muted after:content-[',']">MySQL</span>
+                <span class="text-[11px] text-muted">SQLite</span>
+            </div>
+        </div>
+
+        <div class="flex flex-col sm:grid sm:grid-cols-[140px_1fr] sm:gap-x-10 border-b border-[#2a2926] py-2.5">
+            <div class="text-[10px] uppercase tracking-widest text-muted mb-1.5 sm:mb-0 sm:pt-1">AI / Agents</div>
+            <div class="flex flex-wrap gap-x-2.5 gap-y-1">
+                <span class="text-[11px] text-muted after:content-[',']">Langchain</span>
+                <span class="text-[11px] text-muted after:content-[',']">Google ADK</span>
+                <span class="text-[11px] text-muted">OpenAI SDK</span>
+            </div>
+        </div>
+
+        <div class="flex flex-col sm:grid sm:grid-cols-[140px_1fr] sm:gap-x-10 py-2.5">
+            <div class="text-[10px] uppercase tracking-widest text-muted mb-1.5 sm:mb-0 sm:pt-1">DevOps</div>
+            <div class="flex flex-wrap gap-x-2.5 gap-y-1">
+                <span class="text-[11px] text-muted after:content-[',']">Docker</span>
+                <span class="text-[11px] text-muted after:content-[',']">Vercel</span>
+                <span class="text-[11px] text-muted after:content-[',']">Cloudflare</span>
+                <span class="text-[11px] text-muted after:content-[',']">Render</span>
+                <span class="text-[11px] text-muted">Netlify</span>
+            </div>
+        </div>
+    </div>
+
+    <hr class="border-[#0f0f0e] my-6 sm:my-8" />
+)

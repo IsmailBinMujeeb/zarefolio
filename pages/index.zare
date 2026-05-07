@@ -1,12 +1,20 @@
 as Base import "../base"
-as Hiro import "../components/Hiro"
-as TechStack import "../components/TechStack"
-as HallOfFrame import "../components/HallOfFrame"
+as TopBar import "../components/TopBar"
+as Masthead import "../components/Masthead"
+as About import "../components/About"
+as Stack import "../components/Stack"
+as Projects import "../components/Projects"
+as Contacts import "../components/Contacts"
+as Footer import "../components/Footer"
 
 serve (
     <Base>
-        <Hiro/>
-        <TechStack/>
-        <HallOfFrame/>
+        <TopBar/>
+        <Masthead/>
+        <About/>
+        <Stack/>
+        <Projects/>
+        <Contacts/>
+        <Footer/>
     </Base>
 )
