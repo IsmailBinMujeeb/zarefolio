@@ -6,7 +6,7 @@ serve (
             <em class="italic text-accent">Bin Mujeeb</em>
         </h1>
         <div class="mt-4 sm:mt-5 text-[10px] sm:text-[11px] text-muted uppercase tracking-wider flex flex-col gap-1">
-            <div>Role &nbsp;&nbsp;&nbsp;<span class="text-prose normal-case tracking-normal text-[11px] sm:text-[12px]">Full-Stack Developer</span></div>
+            <div>Role &nbsp;&nbsp;<span class="text-prose normal-case tracking-normal text-[11px] sm:text-[12px]">Full-Stack Developer</span></div>
             <div>Focus &nbsp;<span class="text-prose normal-case tracking-normal text-[11px] sm:text-[12px]">Web Apps · Dev Tools · AI Agents</span></div>
             <div>Stack &nbsp;<span class="text-prose normal-case tracking-normal text-[11px] sm:text-[12px]">TypeScript · Node.js · React · Go</span></div>
             <div>Status <span class="text-[#7dbd8e] normal-case tracking-normal text-[11px] sm:text-[12px]">● Open to work</span></div>
